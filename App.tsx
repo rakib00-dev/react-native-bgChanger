@@ -1,12 +1,31 @@
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  StatusBar,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from 'react-native';
 import React from 'react';
 
 export default function App() {
+  const [randomBackground, setRandomBackground] = React.useState('#ffffff');
+
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <>
+      <StatusBar backgroundColor={'#ffffff'} />
+      <View style={[styles.container]}>
+        <TouchableOpacity>
+          <View style={styles.actionBtn}>
+            <Text style={styles.actionBtnTxt}>Press Me</Text>
+          </View>
+        </TouchableOpacity>
+      </View>
+    </>
   );
 }
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {},
+  actionBtn: {},
+  actionBtnTxt: {},
+});
