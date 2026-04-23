@@ -17,6 +17,8 @@ export default function App() {
     for (let i = 0; i < 6; i++) {
       colorHex += hexRange[Math.floor(Math.random() * 16)];
     }
+
+    setRandomBackground(colorHex);
   };
   return (
     <>
