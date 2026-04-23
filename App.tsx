@@ -24,7 +24,7 @@ export default function App() {
     <>
       <StatusBar backgroundColor={'#ffffff'} />
       <View style={[styles.container]}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={generateColor}>
           <View style={styles.actionBtn}>
             <Text style={styles.actionBtnTxt}>Press Me</Text>
           </View>
