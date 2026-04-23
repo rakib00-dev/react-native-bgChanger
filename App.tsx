@@ -9,6 +9,7 @@ import React from 'react';
 
 export default function App() {
   const [randomBackground, setRandomBackground] = React.useState('#ffffff');
+  const colorHex = '#ffffff';
 
   function generateHx() {}
 
