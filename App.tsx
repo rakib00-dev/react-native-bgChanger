@@ -10,6 +10,8 @@ import React from 'react';
 export default function App() {
   const [randomBackground, setRandomBackground] = React.useState('#ffffff');
 
+  function generateHx(params: type) {}
+
   return (
     <>
       <StatusBar backgroundColor={'#ffffff'} />
