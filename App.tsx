@@ -13,6 +13,10 @@ export default function App() {
   const generateColor = () => {
     const hexRange = '0123456789ABCDEF';
     const colorHex = '#';
+
+    for (let index = 0; index < array.length; index++) {
+      const element = array[index];
+    }
   };
   return (
     <>
