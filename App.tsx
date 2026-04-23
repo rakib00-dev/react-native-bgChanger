@@ -11,8 +11,9 @@ export default function App() {
   const [randomBackground, setRandomBackground] = React.useState('#ffffff');
   const colorHex = '#ffffff';
 
-  function generateHx() {}
-
+  const generateColor = () => {
+    const hexRange = '0123456789ABCDEF';
+  };
   return (
     <>
       <StatusBar backgroundColor={'#ffffff'} />
