@@ -9,10 +9,10 @@ import React from 'react';
 
 export default function App() {
   const [randomBackground, setRandomBackground] = React.useState('#ffffff');
-  const colorHex = '#ffffff';
 
   const generateColor = () => {
     const hexRange = '0123456789ABCDEF';
+    const colorHex = '#';
   };
   return (
     <>
